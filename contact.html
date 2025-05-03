@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Arc de Alps | Contact</title>
+    <meta name="author" content="Swarnaa Rajput">
+    <meta name="description" content="Contact Arc de Alps Resort for help with planning your dream alpine getaway. We are here to assist you with any questions you may have.">
+    
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body class="contact-page">
+    <section class="hero contact-hero">
+      <img src="images/swiss-valley.jpg" alt="Swiss Valley" width="1280" height="400" class="hero-img" />
+      <div class="hero-overlay">
+        <h1><a href="index.html">Arc de Alps</a></h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Accommodations</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+      <!-- MAIN CONTENT -->
+    <main>
+      <section id="contact">
+        
+        <h2>Contact Us</h2>
+        
+        
+        <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+        <p>Required fields marked with a <span class="required">*</span></p>
+        
+        <!-- Hero Image -->
+        <div class="contact-image" role="img" aria-label="Swiss mountain sunset view"></div>
+        
+        <!-- Contact Form -->
+        <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+          <div class="form-grid">
+            
+            <div class="form-left">
+              <!-- Name  -->
+              <div class="form-group">
+                <label for="my-name">Full Name<span class="required">*</span></label>
+                <input type="text" id="my-name" name="my-name" required>
+              </div>
+              
+              <!-- Email  -->
+              <div class="form-group">
+                <label for="my-email">Email<span class="required">*</span></label>
+                <input type="email" id="my-email" name="my-email" required>
+              </div>
+              
+              <!-- Phone  -->
+              <div class="form-group">
+                <label for="my-phone">Phone<span class="required">*</span></label>
+                <input type="tel" id="my-phone" name="my-phone" required>
+              </div>
+            </div>
+            
+            
+            <div class="form-right">
+              
+              <fieldset>
+                <legend>Preferred Method of Contact</legend>
+                <div class="radio-group">
+                  <label class="radio-label">
+                    <input type="radio" name="contact-pref" value="Phone" id="pref-phone" checked>
+                    Phone
+                  </label>
+                  <label class="radio-label">
+                    <input type="radio" name="contact-pref" value="Email" id="pref-email">
+                    Email
+                  </label>
+                </div>
+              </fieldset>
+              
+              <!-- Comments -->
+              <div class="form-group">
+                <label for="my-comments">Comments<span class="required">*</span></label>
+                <textarea id="my-comments" name="my-comments" required></textarea>
+              </div>
+              
+              <!-- Submit Button -->
+              <input type="submit" value="Submit the Form" class="submit-btn">
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>Copyright &copy; 2023 - Arc de Alps</p>
+      <p>This site is for educational purposes only</p>
+    </footer>
+  </body>
+</html>
